@@ -1,0 +1,33 @@
+
+.cls-title-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    padding-inline-start: 20px;
+}
+
+.cls-blue.cls-title-container{
+    background-color: rgb(146, 201, 245);
+    box-shadow: inset 10px 1px 37px 11px  steelblue;
+}
+
+.cls-pink.cls-title-container{
+    background-color: pink;
+    box-shadow: inset 10px 1px 37px 11px  rgb(243, 112, 134);
+}
+
+
+.cls-title-container :first-child{
+    width : 40px;
+    height : 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0 10px 4px rgba(0, 0, 0, 0.116);
+}
+
+
+.cls-title-container .cls-title{
+    font-size: 18px;
+    font-weight: 600;
+    color:#222;
+}

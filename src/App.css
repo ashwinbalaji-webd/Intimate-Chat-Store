@@ -1,0 +1,30 @@
+.cls-app-container{
+    display: flex;
+}
+
+*,
+html {
+  scrollbar-color: grey #e8e8e8 !important;
+  scrollbar-width: thin !important;
+  outline: unset;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  /* border-radius: 5px; */
+}
+
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 2px coral; */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
+}

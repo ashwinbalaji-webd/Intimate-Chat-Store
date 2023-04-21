@@ -1,0 +1,33 @@
+.cls-message-container{
+    overflow-anchor: none;
+}
+
+.cls-message-container .cls-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding-block: 6px;
+    padding-inline: 10px;
+    width: fit-content;
+    text-justify: auto;
+    line-height: 1.5;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 1px solid slategray;
+    box-shadow: 5px 7px 8px -6px slategray;
+    margin-block-end: 10px;
+}
+
+.cls-message-container .cls-message:first-child{
+    text-align: justify;
+}
+
+.cls-message-container .cls-sent-time{
+    margin-inline-start: 40px;
+    background-color: rgba(128, 128, 128, 0.349);
+    padding:2px 3px 0;
+    color: rgb(37, 93, 138);
+    border-radius: 25px;
+    font-size: 9px;
+}

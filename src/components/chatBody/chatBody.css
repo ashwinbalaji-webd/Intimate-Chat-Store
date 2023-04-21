@@ -1,0 +1,30 @@
+.cls-chatBody-container{
+    display: flex;
+    flex-direction: column; 
+    padding-inline:30px ;
+    height: 80vh;
+    padding-block: 10px;
+    overflow-y:auto;
+}
+
+.cls-blue.cls-chatBody-container{
+    background-color: rgba(146, 201, 245, 0.712);
+}
+
+.cls-pink.cls-chatBody-container{
+    background-color: rgba(255, 192, 203, 0.719);
+}
+
+
+.cls-chatBody-container .cls-sender-side{
+    /* width: 50%; */
+    background-color: antiquewhite;
+}
+
+
+.cls-chatBody-container .cls-receiver-side{
+    /* width: 50%; */
+    background-color:darkolivegreen;
+    text-align: right;
+
+}
